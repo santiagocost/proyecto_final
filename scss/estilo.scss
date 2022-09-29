@@ -1,0 +1,150 @@
+@import "variables";
+@import "maps";
+@import "extend";
+@import "mixin";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: $colorUno;
+}
+
+.row img {
+  width: 100%;
+}
+
+.consolas img {
+  width: 100px;
+}
+
+.novedadesPrin {
+  text-align: center;
+}
+
+.encabezado {
+  background-color: green;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  opacity: 100%;
+  grid-area: header;
+
+  div {
+    height: 5rem;
+    width: 25rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+  }
+}
+
+nav {
+  background-color: $colorCuatro;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  grid-area: nav;
+}
+
+a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section {
+  flex: 10%;
+  background-color: $colorCuatro;
+  padding: 10px;
+
+  img {
+    width: 20rem;
+  }
+  #caratula {
+    width: 60%;
+  }
+}
+
+.laguia img {
+  margin: 20px;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+ul img {
+  display: flex;
+}
+
+footer {
+  padding-top: 2rem;
+  text-align: center;
+  background-color: $colorDos;
+  grid-area: footer;
+  
+  ul li {
+    display: inline-block;
+    margin: 2rem;
+  }
+}
+
+html {
+  font-size: 80%;
+}
+
+nav {
+  position: static;
+}
+
+.encabezado div {
+  max-width: 60%;
+}
+
+section {
+  text-align: center;
+
+  img {
+    width: 300px;
+  }
+}
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  text-decoration:none ;
+  color: #0df053;
+  background-color: #fff;
+
+}

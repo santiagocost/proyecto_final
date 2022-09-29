@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+.row, .consolas img {
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #3A2E39; }
+
+.row img, .consolas img img {
+  width: 100%; }
+
+.consolas img {
+  width: 100px; }
+
+.novedadesPrin {
+  text-align: center; }
+
+.encabezado {
+  background-color: #F4D8CD;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  opacity: 100%;
+  grid-area: header; }
+  .encabezado div {
+    height: 5rem;
+    width: 25rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: black; }
+
+nav {
+  background-color: #EDB183;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  grid-area: nav; }
+
+a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+section {
+  flex: 10%;
+  background-color: #EDB183;
+  padding: 10px; }
+  section img {
+    width: 20rem; }
+
+.laguia img {
+  margin: 20px; }
+
+.itemSeis {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  position: fixed;
+  bottom: -50px;
+  right: -50px; }
+  .itemSeis img {
+    height: 50px; }
+
+ul {
+  list-style: none; }
+
+ul img {
+  display: flex; }
+
+footer {
+  padding-top: 2rem;
+  text-align: center;
+  background-color: #F4D8CD;
+  grid-area: footer; }
+  footer ul li {
+    display: inline-block;
+    margin: 2rem; }
+
+html {
+  font-size: 80%; }
+
+nav {
+  position: static; }
+
+.encabezado div {
+  max-width: 60%; }
+
+section {
+  text-align: center; }
+  section img {
+    width: 300px; }
