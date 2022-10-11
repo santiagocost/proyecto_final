@@ -92,17 +92,6 @@ ul img {
   display: flex;
 }
 
-footer {
-  padding-top: 2rem;
-  text-align: center;
-  background-color: #F4D8CD;
-  grid-area: footer;
-}
-footer ul li {
-  display: inline-block;
-  margin: 2rem;
-}
-
 html {
   font-size: 80%;
 }
@@ -124,4 +113,24 @@ section img {
 
 .comunidad {
   text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  padding-top: 2rem 8%;
+  text-align: center;
+  background-color: #F4D8CD;
+}
+footer ul li {
+  display: inline-block;
+  margin: 2rem;
 }/*# sourceMappingURL=estilo.css.map */

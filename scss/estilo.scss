@@ -9,7 +9,6 @@
   padding: 0;
 }
 
-
 .body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: $colorUno;
@@ -86,26 +85,12 @@ section {
   margin: 20px;
 }
 
-
-
 ul {
   list-style: none;
 }
 
 ul img {
   display: flex;
-}
-
-footer {
-  padding-top: 2rem;
-  text-align: center;
-  background-color: $colorDos;
-  grid-area: footer;
-  
-  ul li {
-    display: inline-block;
-    margin: 2rem;
-  }
 }
 
 html {
@@ -130,4 +115,25 @@ section {
 
 .comunidad {
   text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  padding-top: 2rem 8%;
+  text-align: center;
+  background-color: $colorDos;
+
+  ul li {
+    display: inline-block;
+    margin: 2rem;
+  }
 }
